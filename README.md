@@ -3,7 +3,7 @@
 [![CI](https://github.com/perl-libwin32/win32-process/actions/workflows/test.yml/badge.svg)](https://github.com/perl-libwin32/win32-process/actions/workflows/test.yml)
 [![CPAN version](https://img.shields.io/cpan/v/Win32-Process)](https://metacpan.org/pod/Win32::Process)
 
-Create and manipulate processes on Windows from Perl.
+Create and manipulate processes.
 
 Win32::Process wraps the Windows process-control API — `CreateProcess`,
 `WaitForSingleObject`, `TerminateProcess`, and related calls — so a Perl
