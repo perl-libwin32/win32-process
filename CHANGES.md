@@ -7,19 +7,19 @@
 ## 0.17 [2021-05-12]
 
 - Move test file into t directory [#3](https://github.com/perl-libwin32/win32-process/pull/3).
-  Thanks to Adam Herzog <adam@adamherzog.com>.
+  Thanks to Adam Herzog ([@adherzog](https://github.com/adherzog)).
 
 - Clarify Wait() method's return value in the documentation [#5](https://github.com/perl-libwin32/win32-process/pull/5).
-  Thanks to Zoffix Znet <cpan@zoffix.com> and Bartosz Brewinski <bbrewinski@lukasbank.pl>
+  Thanks to Zoffix Znet ([@zoffixznet](https://github.com/zoffixznet)) and Bartosz Brewinski
 
 - Fix Win32::Process::KillProcess() with VC9 [#6](https://github.com/perl-libwin32/win32-process/pull/6).
-  Thanks to Zoffix Znet <cpan@zoffix.com> and Steve Hay <shay@cpan.org>.
+  Thanks to Zoffix Znet ([@zoffixznet](https://github.com/zoffixznet)) and Steve Hay.
 
 - Change the example so it works OOTB [#7](https://github.com/perl-libwin32/win32-process/pull/7).
-  Thanks to Vincent Lequertier <vi.le@autistici.org>.
+  Thanks to Vincent Lequertier.
 
 - Allow "appname" and "cmdline" parameters to Create() to be NULL [#8](https://github.com/perl-libwin32/win32-process/pull/8).
-  Thanks to Michael Conrad <mike@nrdvana.net> and Greg Ercolano <erco@seriss.com>.
+  Thanks to Michael Conrad and Greg Ercolano.
 
 ## 0.16 [2013-12-11]
 
@@ -70,7 +70,7 @@
   (suggested by Michael Ellery)
 
 - add GetCurrentProcessID() for cygwin
-  (Reini Urban <rurban@x-ray.at>)
+  (Reini Urban)
 
 - Win32::Process::Open() now records the process ID correctly
   for GetProcessID().  It also creates handle now that can be
@@ -83,23 +83,23 @@
 ## 0.09 [2001-08-17]
 
 - allow opening an existing pid, like OpenProcess() (thanks to
-  Blair Zajac <blair@orcaware.com>)
+  Blair Zajac)
 
 ## 0.08 [2000-12-26]
 
 - make sure the environment is correctly inherited by the new
   process.  Only implemented in non-Unicode branch!
-  (by Jan Dubois <jand@ActiveState.com>)
+  (by Jan Dubois)
 
 ## 0.07 [2000-05-22]
 
 - support for passing Unicode strings to methods (thanks to
-  Doug Lankshear <dougl@ActiveState.com>)
+  Doug Lankshear)
 
 ## 0.06 [1999-09-25]
 
 - added GetProcessID() and KillProcess() (suggested by
-  Sherwin Kartick <rsk@msi.com>)
+  Sherwin Kartick)
 
 ## 0.05 [1998-10-01]
 
@@ -119,12 +119,12 @@
 
 - Added get_process_handle for communication with Win32::IPC 1.00
 
-- contributed by Christopher J. Madsen <cjm@pobox.com>
+- contributed by Christopher J. Madsen
 
 ## 0.02 [1997-12-14]
 
 - added [GS]etProcessAffinityMask(), contributed by
-  Ricardo E. Gonzalez <regonzal@gomez.sc.intel.com>
+  Ricardo E. Gonzalez
 
 ## 0.01 [1997-04-05]
 
